@@ -1,0 +1,60 @@
+/* 1-style.css */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+  }
+
+/* Set the foreground color of the body to #161616 */
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+  }
+  
+  /* Set the foreground color of all anchor elements to #161616 */
+  a {
+    color: var(--text-color);
+  }
+  
+  /* Set the display property to none for all elements with the class visually-hidden */
+  .visually-hidden {
+    display: none;
+  }
+  
+  /* Set the foreground color of all elements with the class card-category to #D73953 */
+  .card-category {
+    color: var(--color-primary);
+  }
+  
+  /* Set the foreground color of all elements with the class section-tagline to #D73953 */
+  .section-tagline {
+    color: var(--color-primary);
+  }
+
+  /* Targeting all 6 levels of section headings, positioned before the links declaration */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+  }     
+  
+  /* Define custom properties for colors */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+  }
+  
