@@ -14,43 +14,43 @@ body {
   }
 
   /* Target anchor elements containing a hyperlink */
-a[href]:link {
+a:link {
     /* Styles for normal, unvisited links */
     color: var(--text-color);
     text-decoration: none; /* Remove default underline */
   }
   
   /* Styles for visited links */
-  a[href]:visited {
+a:visited {
     text-decoration: none; /* Remove default underline */
     font-style: italic; /* Italicize the text */
   }
   
   /* Styles for hovering links */
-  a[href]:hover {
+a:hover {
     text-decoration: underline; /* Add underline on hover */
   }
   
   /* Styles for active links */
-  a[href]:active {
+a:active {
     background-color: var(--color-light-grey);
   }
   
   /* Set the display property to none for all elements with the class visually-hidden */
-  .visually-hidden {
+.visually-hidden {
     display: none;
   }
   
   /* Set the foreground color of all elements with the class card-category to #D73953 */
-  .card-category {
+.card-category {
     color: var(--color-primary);
   }
 
-  .section-header {
+.section-header {
     text-align: var(--section-header-align);
   }
   
-  .section-title{
+.section-title{
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
@@ -58,7 +58,7 @@ a[href]:link {
     color: var(--section-title-color);
   }
   /* Set the foreground color of all elements with the class section-tagline to #D73953 */
-  .section-tagline {
+.section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
@@ -67,7 +67,7 @@ a[href]:link {
 
   /* Targeting all 6 levels of section headings, positioned before the links declaration */
   
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
   }     
