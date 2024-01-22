@@ -1,4 +1,4 @@
-/* 1-style.css */
+/* 11-style.css */
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -48,7 +48,7 @@ body {
     font-weight: var(--font-weight-bold);
   }     
   
-  /* Define custom properties for colors */
+  /* Define custom properties */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
