@@ -88,19 +88,19 @@ a:active {
   }
 
 .section {
-    padding: var(--section-padding, 0);
+    padding: var(--section-padding);
 }
 .section-header {
     text-align: var(--section-header-align);
-    padding: var(--section-header-padding, 0);
+    padding: var(--section-header-padding);
   }
 
 .section-body {
-    padding: var(--section-body-padding, 0);
+    padding: var(--section-body-padding);
 }
 
 .section-footer {
-    padding: var(--section-footer-padding, 0);
+    padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
 }
 
@@ -134,6 +134,6 @@ h1, h2, h3, h4, h5, h6 {
   }     
   
 .footer {
-    padding: var(--footer-padding, 0);
+    padding: var(--footer-padding);
 }
   
