@@ -101,9 +101,22 @@ a:active {
 }
 
 .nav-item {
-    font-family: ;
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
 }
-  
+
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
   /* Set the foreground color of all elements with the class card-category to #D73953 */
 .card-category {
     color: var(--color-primary);
