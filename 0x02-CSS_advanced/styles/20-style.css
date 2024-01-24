@@ -188,7 +188,8 @@ ul.row {
     padding: 0.5rem;
 }
 
-.row:empty {
+.row::after {
+    content: "";
     display: table;
     clear: both;
   }
