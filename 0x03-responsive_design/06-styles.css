@@ -219,7 +219,7 @@
   }
   
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     :root {
         --section-padding: 5rem 1.5rem;
         --section-body-padding: 2rem 0 0;
@@ -288,16 +288,13 @@
     width: 100%;
   }
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     .navbar-menu {
         display: none;
+        flex: 1;
     }
     :root {
         --nav-item-margin: 0;
-    }
-
-    .navbar-menu {
-        flex: 1;
     }
 
     .header .nav {
@@ -391,9 +388,9 @@
     top: 0;
   }
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     :root {
-        --header-padding: 2rem;
+        --header-padding: 2rem 0 0;
     }
 
     .header {
@@ -410,13 +407,13 @@
     }
   }
 
-  @media (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     .header-logo {
         flex-basis: 70%;
     }
   }
 
-  @media (min-width: 481px) and (max-width: 767px) {
+  @media screen and (min-width: 481px) and (max-width: 767px) {
     .header-logo {
         flex-basis: 79%;
     }
@@ -539,7 +536,7 @@
     min-height: 35vh;
   }
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     .section-hero {
         margin: -0.1rem 0;
     }
@@ -560,7 +557,7 @@
     flex-direction: row-reverse;
   }
 
-  @media (max-width: 767ps) {
+  @media screen and (max-width: 767px) {
     .section-latest-news .row {
         flex-direction: column;
     }
